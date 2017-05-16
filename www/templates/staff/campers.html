@@ -1,0 +1,25 @@
+<ion-view view-title="Campers List">
+  <ion-content>
+    <ion-search class="search-container" placeholder="Search" filter="search">
+      <div class="item-input-wrapper">
+        <i class="icon ion-android-search"></i>
+        <input type="search" placeholder="{{placeholder}}" ng-model="search.value">
+        <i ng-if="search.value.length > 0" ng-click="clearSearch()" class="icon ion-close"></i>
+      </div>
+    </ion-search>
+
+		<ion-list class="camper-list">
+      <ion-item class="title-row">
+        <p class="camper-name"><strong>Name</strong></p>
+        <p class="camper-grad"><strong>Grad Yr.</strong></p>
+        <p class="camper-room"><strong>Room #</strong></p>
+      </ion-item>
+      <ion-item ng-repeat="camper in names | filter:searchText">
+        <p class="camper-name"><strong>{{camper.lname}}</strong>, {{camper.fname}}</p>
+        <p class="camper-grad">{{camper.gradYear}}</p>
+				<p class="camper-room">{{camper.room}}</p>
+      </ion-item>
+		</ion-list>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,55 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content drag-content="false">
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">Menu</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+  		<ion-item menu-close ui-sref="app.home" ui-sref-active="active" href="#/app/home">
+          <i class="icon ion-home"></i> Home
+        </ion-item>
+        <ion-item menu-close ui-sref="app.guide_campers" ui-sref-active="active" href="#/app/guide_campers">
+          <i class="icon ion-ios-paper-outline"></i> Dear Campers
+        </ion-item>
+        <ion-item menu-close ui-sref="app.session-groups" ui-sref-active="active" href="#/app/session-groups">
+          <i class="icon ion-ios-people-outline"></i> Session Groups
+        </ion-item>
+        <ion-item menu-close ui-sref="app.travel-groups" ui-sref-active="active" href="#/app/travel-groups">
+          <i class="icon ion-android-compass"></i> Travel Groups
+        </ion-item>
+        <ion-item menu-close ui-sref="app.schedule" ui-sref-active="active" href="#/app/schedule">
+          <i class="icon ion-calendar"></i> Schedule
+        </ion-item>
+        <ion-item menu-close ui-sref="app.map" ui-sref-active="active" href="#/app/map">
+          <i class="icon ion-map"></i> Field Maps
+        </ion-item>
+        <ion-item menu-close ui-sref="app.games" ui-sref-active="active" href="#/app/games">
+          <i class="icon ion-trophy"></i> Competitions
+        </ion-item>
+        <ion-item menu-close ui-sref="app.sessions" ui-sref-active="active" href="#/app/sessions">
+          <i class="icon ion-ios-football"></i> Sessions
+        </ion-item>
+      </ion-list>
+      <ion-list class="staff-menu">
+        <!-- <div class="item item-divider">CS STAFF ONLY</div> -->
+        <ion-item menu-close ui-sref="app.login" ui-sref-active="active" href="#/app/login">
+          <i class="icon ion-key"></i>  CS Staff ONLY
+        </ion-item>
+
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

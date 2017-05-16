@@ -1,0 +1,121 @@
+{
+    "results": [    	
+        {
+            "day": "Not a Day",
+            "date": "July 24, 2017 23:59:59",
+            "events": [
+                {"time": "July 24, 2017 11:00",	"name" : "Fake Data"},
+								{"time": "July 24, 2017 12:30",	"name" : "Staff Meeting"},
+								{"time": "July 24, 2017 15:00",	"name" : "Registration"},
+								{"time": "July 24, 2017 16:45",	"name" : "Subway - Dinner"},
+								{"time": "July 24, 2017 17:00",	"name" : "Introductions (Dressed & Ready to Go to Field)"},
+								{"time": "July 24, 2017 18:00",	"name" : "Depart for Training"},
+								{"time": "July 24, 2017 18:15",	"name" : "Evaluations/TKW Demo/Staff Training Demo"},
+								{"time": "July 24, 2017 22:30",	"name" : "In Room"}
+            ]
+        },
+        {
+            "day": "Monday",
+            "date": "July 25, 2017 23:59:59",
+            "events": [
+                {"time": "July 25, 2017 07:00",	"name" : "Breakfast Holiday Inn"},
+								{"time": "July 25, 2017 08:00",	"name" : "Depart for Training"},
+								{"time": "July 25, 2017 08:30",	"name" : "Ball Handling/Footwork"},
+								{"time": "July 25, 2017 11:00",	"name" : "Arbys"},
+								{"time": "July 25, 2017 13:30",	"name" : "Depart for Training"},
+								{"time": "July 25, 2017 13:45",	"name" : "Distribution off ground"},
+								{"time": "July 25, 2017 15:30",	"name" : "Speed & Agility (Groups 7-22)"},
+								{"time": "July 25, 2017 16:00",	"name" : "Fazolis @ PCYS"},
+								{"time": "July 25, 2017 18:15",	"name" : "Depart for Training"},
+								{"time": "July 25, 2017 18:30",	"name" : "Low Diving/Angle Play"},
+								{"time": "July 25, 2017 21:00",	"name" : "Shower and Eval"},
+								{"time": "July 25, 2017 22:30",	"name" : "In Room"}
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "date": "July 26, 2017 23:59:59", 
+            "events": [
+								{"time": "July 26, 2017 06:30",	"name" : "Optional Speed & Agility"},
+								{"time": "July 26, 2017 07:00",	"name" : "Breakfast Holiday Inn"},
+								{"time": "July 26, 2017 08:00",	"name" : "Depart for Training"},
+								{"time": "July 26, 2017 08:30",	"name" : "Extension Diving"},
+								{"time": "July 26, 2017 11:15",	"name" : "Subway"},
+								{"time": "July 26, 2017 13:30",	"name" : "Depart for Training"},
+								{"time": "July 26, 2017 13:45",	"name" : "Angle Play/Distribution from Hand"},
+								{"time": "July 26, 2017 15:30",	"name" : "Speed & Agility (Groups 9-16)"},
+								{"time": "July 26, 2017 16:00",	"name" : "REST & RELAX"},
+								{"time": "July 26, 2017 18:15",	"name" : "Set Pieces/Mental Training (Qdoba)"},
+								{"time": "July 26, 2017 21:00",	"name" : "Shower and Eval"},
+								{"time": "July 26, 2017 22:30",	"name" : "In Room"}
+            ]
+        },
+                {
+            "day": "Wednesday",
+            "date": "July 27, 2017 23:59:59",
+            "events": [
+								{"time": "July 27, 2017 06:30",	"name" : "Optional Speed & Agility"},
+								{"time": "July 27, 2017 07:00",	"name" : "Breakfast Holiday Inn"},
+								{"time": "July 27, 2017 08:00",	"name" : "Depart for Training"},
+								{"time": "July 27, 2017 08:30",	"name" : "Breakaways #1"},
+								{"time": "July 27, 2017 11:00",	"name" : "Arbys"},
+								{"time": "July 27, 2017 13:30",	"name" : "Depart for Training"},
+								{"time": "July 27, 2017 13:45",	"name" : "Cross Management #1"},
+								{"time": "July 27, 2017 15:30",	"name" : "Speed & Agility (Groups 17-24)"},
+								{"time": "July 27, 2017 17:00",	"name" : "Dinner at Holiday Inn"},
+								{"time": "July 27, 2017 18:00",	"name" : "Depart for Training"},
+								{"time": "July 27, 2017 18:15",	"name" : "Distribution (Punts/Dropkicks) 2v2 Game"},
+								{"time": "July 27, 2017 21:00",	"name" : "Shower and Eval"},
+								{"time": "July 27, 2017 22:30",	"name" : "In Room"}
+            ]
+        },
+        {
+            "day": "Thursday",
+            "date": "July 28, 2017 23:59:59",
+            "events": [
+								{"time": "July 28, 2017 06:30",	"name" : "Breakfast Holiday Inn"},
+								{"time": "July 28, 2017 07:30",	"name" : "Depart for Training"},
+								{"time": "July 28, 2017 08:00",	"name" : "GIECHE TRAINING"},
+								{"time": "July 28, 2017 11:15",	"name" : "Lunch Holiday Inn"},
+								{"time": "July 28, 2017 12:30",	"name" : "Rest and RELAX"},
+								{"time": "July 28, 2017 13:30",	"name" : "Depart for Training"},
+								{"time": "July 28, 2017 14:00",	"name" : "Cross Management #2  "},
+								{"time": "July 28, 2017 15:30",	"name" : "Fazolis @ PCYS"},
+								{"time": "July 28, 2017 17:30",	"name" : "Depart for Training"},
+								{"time": "July 28, 2017 18:00",	"name" : "Stans Game"},
+								{"time": "July 28, 2017 21:15",	"name" : "Skit Night/ Massages"},
+								{"time": "July 28, 2017 22:30",	"name" : "In Room"}
+            ]
+        },
+        {
+            "day": "Friday",
+            "date": "July 29, 2017 23:59:59", 
+            "events": [
+								{"time": "July 29, 2017 07:00",	"name" : "Breakfast Holiday Inn"},
+								{"time": "July 29, 2017 08:45",	"name" : "Depart for Training"},
+								{"time": "July 29, 2017 09:15",	"name" : "Team Keeper Wars (Youth) / Breakaways #2"},
+								{"time": "July 29, 2017 11:15",	"name" : "Lunch Holiday Inn"},
+								{"time": "July 29, 2017 12:30",	"name" : "R with some R"},
+								{"time": "July 29, 2017 13:15",	"name" : "Depart for Training"},
+								{"time": "July 29, 2017 13:30",	"name" : "College Talk"},
+								{"time": "July 29, 2017 17:15",	"name" : "Dinner Holiday Inn"},
+								{"time": "July 29, 2017 18:00",	"name" : "Depart for Training"},
+								{"time": "July 29, 2017 18:30",	"name" : "Team Keeper Wars"},
+								{"time": "July 29, 2017 21:15",	"name" : "Club Shutout"},
+								{"time": "July 29, 2017 22:30",	"name" : "In Room"}
+            ]
+        },
+        {
+            "day": "Saturday",
+            "date": "July 30, 2017 23:59:59", 
+            "events": [
+								{"time": "July 30, 2017 07:00",	"name" : "Wake Up"},
+								{"time": "July 30, 2017 07:30",	"name" : "Breakfast Holiday Inn"},
+								{"time": "July 30, 2017 09:00",	"name" : "Team Keeper Wars"},
+								{"time": "July 30, 2017 11:30",	"name" : "Awards and Closing Ceremony"},
+								{"time": "July 30, 2017 12:00",	"name" : "See you next year"}
+            ]
+        }
+
+    ]
+}

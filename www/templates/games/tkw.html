@@ -1,0 +1,100 @@
+<ion-view view-title="Team Keeper Wars">
+    <ion-content>
+    <div><img ng-src="./img/tkw.png"></div>
+  <div ng-cloak>
+      <ion-list>  
+      	  <ion-item class="item-stable"
+                    ng-click="toggleGroup(3)"
+                    ng-class="{active: isGroupShown(3)}">
+              <i class="icon" ng-class="isGroupShown(3) ? 'ion-minus' : 'ion-plus'"></i>
+            &nbsp;
+            Rules 
+          </ion-item>
+          
+          <ion-item class="item-accordion"
+                    ng-show="isGroupShown(3)">
+            <p>
+						<ul class="rules">
+				        <li><strong>Rock, paper, scissors</strong> to start for <strong>side</strong> or <strong>ball</strong></li>
+				        <li><strong>Start the game:</strong> Ball must start on the ground
+				            <ul>
+				                <li>6 seconds to play the ball</li>
+				            </ul>
+				        </li>
+				        <li><strong>Distribution:</strong><br>
+				            <ul>
+				                <li>NO drop kicks or punts</li>
+				
+				                <li>GK may not pass hand to hand, only hand to feet or feet to feet</li>
+				            </ul>
+				        </li>
+				        <li><strong>After a goal:</strong> New ball from goal, must start on the ground</li>
+				        <li><strong>SUBS:</strong>Both teams MUST rotate after every goal scored
+				            <ul>
+				                <li>Can sub at any time <em>[except if teammate is chasing]</em></li>
+				                <li>Goalkeepers must stay in a consistent rotation throughout the game with GKs</li>
+				            </ul>
+				        </li>
+				
+				        <li>GK can't cross half
+				            <ul>
+				                <li>First violation = warning</li>
+				                <li>Second violation = GK must be subbed out</li>
+				            </ul>
+				        </li>
+				
+				        <li>Last GK to touch the ball must chase it if it goes out of bounds
+				            <ul>
+				                <li>Team must play down a player</li>
+				            </ul>
+				        </li>
+				
+				        <li>No player can touch the ball once it goes out of bounds except for the GK that last touched it.
+				
+				            <ul>
+				                <li>Goal is award to other team if team assists or touch the ball in anyway</li>
+				            </ul>
+				        </li>
+				    </ul>
+            </p>
+          </ion-item>
+      
+              
+          <ion-item class="item-stable"
+                    ng-click="toggleGroup(2)"
+                    ng-class="{active: isGroupShown(2)}">
+              <i class="icon" ng-class="isGroupShown(2) ? 'ion-minus' : 'ion-plus'"></i>
+            &nbsp;
+            Scoring 
+          </ion-item>
+          <ion-item class="item-accordion"
+                    ng-show="isGroupShown(2)">
+            <ul class="rules">
+	            <li><b>1 pt</b> a goal</li>
+            </ul>
+
+          </ion-item>
+          
+          
+
+          
+          <ion-item class="item-stable"
+                    ng-click="toggleGroup(1)"
+                    ng-class="{active: isGroupShown(1)}">
+              <i class="icon" ng-class="isGroupShown(1) ? 'ion-minus' : 'ion-plus'"></i>
+            &nbsp;
+            Dimensions 
+          </ion-item>
+          <ion-item class="item-accordion"
+                    ng-show="isGroupShown(1)">
+            <ul class="rules">
+            <div><img ng-src="./img/tkw_dim.png"></div>
+	            <li><b>Adv:</b> 24 yds x 20 yds</li>
+							<li><b>Youth:</b> 22 yds x 20 yds</li>
+							<li><b>Total # of fields:</b> 22 (16-adv + 6-youth)</li>
+            </ul>
+          </ion-item>
+        </ion-list>
+        </div>
+ 	</ion-content>
+</ion-view>

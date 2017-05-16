@@ -1,0 +1,88 @@
+<ion-view view-title="Stan's Game">
+  <ion-content>
+  <div><img ng-src="./img/stans_game.png"></div>
+  <div ng-cloak>
+      <ion-list>  
+      	  <ion-item class="item-stable"
+                    ng-click="toggleGroup(3)"
+                    ng-class="{active: isGroupShown(3)}">
+              <i class="icon" ng-class="isGroupShown(3) ? 'ion-minus' : 'ion-plus'"></i>
+            &nbsp;
+            Rules 
+          </ion-item>
+          
+          <ion-item class="item-accordion"
+                    ng-show="isGroupShown(3)">
+            <p>
+						<ul class="rules">
+							<li><b>2 GKs</b> on the field at a time</li>
+							<li><strong>Start the game:</strong> ball can be shot using punt, dropkick, thrown, kicked off of the ground or any other form of distribution.
+								<ul>
+									<li>6 seconds to deliver</li>
+									<li>Only use feet when ball is not in the keeper arc.</li>
+								</ul>
+							</li>
+							<li><strong>After a goal is scored:</strong> ball can be shot using punt, dropkick, thrown, kicked off of the ground or any other form of distribution.</li>
+							<li><strong>Ball sent off </strong>
+								<ul>
+									<li><strong>Side line</strong> returns the ball to shooter (keep possession)</li>
+									<li><strong>End line</strong> keepers ball (change possession)</li>
+								</ul>
+							</li>
+							<li><strong>SUBS</strong>both teams sub when 2 total points are scored</li>
+							<li>REBOUNDS ARE LIVE
+								<ul>
+									<li>Points can only be scored on the team that gave up the rebound.</li>
+									<li>If a ball is collected by the team that gave up the rebound, they must go back to their arc.</li>
+									<li><em>Rebounds include shots off the frame that remain in the field of play</em>.</li>
+								</ul>
+							</li>
+							<li>ONLY 1 player from possessing team can leave arc to clean up ball</li>
+							<li>Upon retrieving a missed/spilled ball, retriever or teammate must use feet to shoot at keeper zone/goal.
+								<ul>
+								<li>Not from the hand</li>
+								</ul>
+							</li>
+						</ul>
+            </p>
+          </ion-item>
+
+          <ion-item class="item-stable"
+                    ng-click="toggleGroup(2)"
+                    ng-class="{active: isGroupShown(2)}">
+              <i class="icon" ng-class="isGroupShown(2) ? 'ion-minus' : 'ion-plus'"></i>
+            &nbsp;
+            Scoring 
+          </ion-item>
+          <ion-item class="item-accordion"
+                    ng-show="isGroupShown(2)">
+            <ul class="rules">
+	            <li><b>2 pts</b> a goal</li>
+							<li><b>1 pt</b> hitting the ground in arc [ball HAS TO BE held or SENT OUT of the arc on a fly]</li>
+							<li><b>3 pts</b> a goal that bounces in the zone first</li>
+							<li>REBOUNDS
+							<ul><li>goal = 2 pts</li><li>chipped into zone = 1 pt</li></ul>
+            </ul>
+
+          </ion-item>
+
+          <ion-item class="item-stable"
+                    ng-click="toggleGroup(1)"
+                    ng-class="{active: isGroupShown(1)}">
+              <i class="icon" ng-class="isGroupShown(1) ? 'ion-minus' : 'ion-plus'"></i>
+            &nbsp;
+            Dimensions 
+          </ion-item>
+          <ion-item class="item-accordion"
+                    ng-show="isGroupShown(1)">
+            <div><img ng-src="./img/stans_game_dim.png"></div>
+            <ul class="rules">
+	            <li><b>Adv:</b> 32 yds x 18 yds w/ 8-yard arc zone</li>
+							<li><b>Youth:</b> 28 yds x 18 yds w/ a 6-yard arc zone </li>
+							<li><b>Total # of fields:</b> 11 (8-adv + 3-youth)</li>
+            </ul>
+          </ion-item>
+        </ion-list>
+        </div>
+ 	</ion-content>
+</ion-view>

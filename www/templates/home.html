@@ -1,0 +1,30 @@
+<ion-view view-title="Camp Shutout">
+  <ion-content>
+    <div class="home">
+      <img class="logo" src="img/logo.png">
+      <!-- <h1>Welcome Camp Shutout!</h1> -->
+      <!-- <p> Use the menu [ <i class="icon ion-navicon"></i> ] in the upper left to naviagte</p> -->
+      <h3>Upcoming camps...</h3>
+      <div class="camps">
+        <div class="row" ng-repeat="camp in data.camps | orderBy: 'past'" ng-class="{strike: {{camp.past}} }">
+          <div class="col camp-name">{{camp.name}}</div>
+          <div class="col camp-date">{{camp.date}}</div>
+          <div class="col camp-link" ng-show="'{{camp.linkText}}'" ng-hide="'{{camp.link}}' === ''">
+            <a href="#" ng-click="openPage('{{camp.link}}')">{{camp.linkText}}</a>
+          </div>
+          <div class="col camp-link" ng-show="'{{camp.link}}' === ''">
+            {{camp.linkText}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+    <ion-tab title="Home"  icon="ion-home" href="#/tabs/dashboard">
+        <ion-nav-view name="tab-dashboard"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="Staff" icon="ion-log-in" href="#/tabs/login">
+        <ion-nav-view name="tab-login"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

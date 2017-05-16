@@ -1,0 +1,46 @@
+{
+    "camps": [
+        {
+            "name": "Fake Camp",
+            "date": "Dec 28-29",
+            "link": "",
+            "linkText": "SOLD OUT",
+            "past": true
+        },
+        {
+            "name": "Winter Road Show - Madison",
+            "date": "Jan 28-29",
+            "link": "http://kronserkeeperacademy.com/2017-cs-road-show-registration/",
+            "linkText": "WAIT LIST",
+            "past": false
+        },
+        {
+            "name": "Racine - WI Road Show",
+            "date": "TBD",
+            "link": "",
+            "linkText": "COMING SOON",
+            "past": false
+        },
+        {
+            "name": "Grand Rapids - MI Road Show",
+            "date": "TBD",
+            "link": "",
+            "linkText": "COMING SOON",
+            "past": false
+        },
+        {
+            "name": "Schaumburg - IL Road Show",
+            "date": "TBD",
+            "link": "",
+            "linkText": "COMING SOON",
+            "past": false
+        },
+        {
+            "name": "Camp Shutout - Big Show",
+            "date": "July 23-29",
+            "link": "",
+            "linkText": "COMING SOON",
+            "past": false
+        }
+    ]
+}

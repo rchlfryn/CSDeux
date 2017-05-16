@@ -1,0 +1,27 @@
+{
+    "day" : "Someday",
+    "results" : [
+    {
+        "coach" : "Fake Coach",
+        "sa" : "David Something",
+        "group" : "X",
+        "field" : "XX",
+        "kids" : [
+            "Toney Timathoy",
+            "Brock E Lee",
+            "Ham Berger"
+        ]
+    },
+    {
+        "coach" : "Rachel Ray",
+        "sa" : "A very Cool person",
+        "group" : "XX",
+        "field" : "XX",
+        "kids" : [
+            "Mike Jordan Chalus",
+            "Santa Goodrich",
+            "Brooke Borrows"
+        ]
+    }
+    ]
+}

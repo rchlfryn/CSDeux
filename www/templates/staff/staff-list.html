@@ -1,0 +1,27 @@
+<ion-view view-title="Staff List">
+  <ion-header-bar class="bar-light bar-subheader">
+    <input class="search-box" type="search"
+      placeholder="Filter contacts..."
+      ng-model="search"
+      ng-focus="searchFocused = true"
+      ng-blur="searchFocused = false"
+      ng-change="scrollTop()" />
+    <button ng-if="search.length"
+      class="button button-icon ion-android-close input-button"
+      ng-click="clearSearch()">
+    </button>
+  </ion-header-bar>
+  <ion-content>
+    <div class="list" data-ng-controller="StaffCtrl">
+      <a class="item my-item"
+        collection-repeat="item in getContacts()"
+        collection-item-height="getItemHeight(item)"
+        collection-item-width="getItemWidth(item)"
+        ng-click="showActionsheet(item.first_name, item.phone)"
+        ng-style="{}"
+        ng-class="{'item-divider': item.isLetter}">
+        {{item.letter || (item.first_name+' '+item.last_name)}}
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

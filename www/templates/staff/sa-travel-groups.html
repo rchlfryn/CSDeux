@@ -1,0 +1,26 @@
+<ion-view view-title="Travel Groups">
+      <ion-content>
+      <ion-refresher on-refresh="doRefresh()"></ion-refresher>
+      
+      <h2><b>{{day}}</b></h2>
+      <ion-list>
+        <div ng-repeat="groups in names">
+          <ion-item class="item-stable"
+                    ng-click="toggleGroup(groups)" ng-model="clearAll"
+                    ng-class="{active: isGroupShown(groups)}">
+              <i class="icon" ng-class="isGroupShown(groups) ? 'ion-minus' : 'ion-plus'"></i>
+            &nbsp;
+            
+            <b>{{groups.coach}}</b>
+
+          </ion-item>
+             <ion-checkbox class="item-accordion"
+                    ng-repeat="camper in groups.kids"
+                    ng-show="isGroupShown(groups)" ng-model="isChecked" ng-class="{crossout : isChecked}">
+              <span style="float: left; pointer-events: none;">{{camper.name}}</span>
+              <span style="float: right; pointer-events: none;">{{camper.room}}</span>
+            </ion-checkbox>
+        </div>
+        </ion-list>
+    </ion-content>
+</ion-view>

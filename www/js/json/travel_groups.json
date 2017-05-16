@@ -1,0 +1,181 @@
+{
+	"day" : "Monday",
+	"results" : [
+	{
+		"coach" : "Fake Staff Assistant",
+		"kids" : [
+			{"name" : "Kid One","room" : "310"},
+			{"name" : "Kid Two","room" : "231"},
+			{"name" : "Kid Three","room" : "34"}
+		]
+	},
+	{
+		"coach" : "Local",
+		"kids" : [
+			{"name" : "Dan","room" : "234"},
+			{"name" : "Mike","room" : "523"},
+			{"name" : "Jim","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Evelina Hellgren",
+		"kids" : [
+			{"name" : "Dan","room" : "234"},
+			{"name" : "Mike","room" : "523"},
+			{"name" : "Jim","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Jim Barkei",
+		"kids" : [
+			{"name" : "Dan","room" : "234"},
+			{"name" : "Mike","room" : "523"},
+			{"name" : "Jim","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Adrian Remeniuk",
+		"kids" : [
+			{"name" : "AB","room" : "234"},
+			{"name" : "CD","room" : "523"},
+			{"name" : "EF","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Mallory Geurtz",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Meghan Ledin",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Nate Kitchell",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Rachel Tenuta",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Sarah Dobrowolski",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Torri Jordan",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Tyler Allen",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Sarah Peplinski",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Robbie White",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Anna Benveunto",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "David Fiflis",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Sawyer Jackman",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Nathan Wisbey",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Erin Scott",
+		"kids" : [
+			{"name" : "","room" : "234"},
+			{"name" : "","room" : "523"},
+			{"name" : "","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Meghan Ellis",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Melissa Sturgill",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	},
+	{
+		"coach" : "Drew Moulten",
+		"kids" : [
+			{"name" : "AS","room" : "234"},
+			{"name" : "ZX","room" : "523"},
+			{"name" : "CV","room" : "124"}
+		]
+	}
+	]
+}

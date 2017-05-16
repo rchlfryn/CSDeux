@@ -1,0 +1,15 @@
+[
+	{"fname" : "Fake", "lname": "Data", "gradYear" : "2020","room" : "303"},
+	{"fname" : "Stan", "lname": "Anderson", "gradYear" : "2016","room" : "303"},
+	{"fname" : "Rachel","lname": "Fryan", "gradYear" : "2017","room" : "304"},
+	{"fname" : "Aubrey","lname": "Buehler", "gradYear" : "2018","room" : "305"},
+	{"fname" : "Joe","lname": "Zimka", "gradYear" : "2019","room" : "306"},
+	{"fname" : "Chris","lname": "Dadaiaiaiaian", "gradYear" : "2020","room" : "307"},
+	{"fname" : "Another long name","lname": "Supercalifragilistic", "gradYear" : "2021","room" : "314"},
+	{"fname" : "Bill","lname": "Reno", "gradYear" : "2021","room" : "308"},
+	{"fname" : "Meghan","lname": "Ellis", "gradYear" : "2016","room" : "309"},
+	{"fname" : "Jim","lname": "Barki", "gradYear" : "2017","room" : "310"},
+	{"fname" : "Tom","lname": "Serratore", "gradYear" : "2018","room" : "311"},
+	{"fname" : "Daivd","lname": "Tuchinski", "gradYear" : "2019","room" : "312"},
+	{"fname" : "Christopher","lname": "Walkin", "gradYear" : "2020","room" : "313"}
+]
